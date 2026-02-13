@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.search {
+  width: 80%;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: darkblue;
+}
+
+.book-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.remove-btn {
+  padding: 8px 15px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.remove-btn:hover {
+  background: darkred;
+}
